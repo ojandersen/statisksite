@@ -1,0 +1,129 @@
+@media (width < 499px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .overskrift {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .reverse-r {
+    display: inline-block; /* Gør det muligt at rotere */
+    transform: rotateY(180deg); /* Vender R'et horisontalt */
+    color: red; /* Gør det rødt */
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero > img {
+    width: 100%;
+    max-width: 499px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .overskrift2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  nav {
+  }
+
+  .acces {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 499px;
+    color: black;
+  }
+
+  .acces > img {
+    width: 499px;
+    grid-row: 1;
+    grid-column: 1 / 4;
+  }
+  .acces > h3 {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 50px;
+    background-color: #ffffff66;
+    padding: 1rem;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+  }
+}
+
+@media (width > 500px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .overskrift {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .reverse-r {
+    display: inline-block; /* Gør det muligt at rotere */
+    transform: rotateY(180deg); /* Vender R'et horisontalt */
+    color: red; /* Gør det rødt */
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero > img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+  .overskrift2 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+  }
+
+  .acces {
+    display: grid;
+
+    width: 100%;
+    color: black;
+  }
+
+  .acces > img {
+    width: 100%;
+    grid-row: 1;
+    grid-column: 1 / 4;
+    border: solid black 2px;
+  }
+  .acces > h3 {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 50px;
+    background-color: #ffffff66;
+    padding: 1rem;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+  a {
+    padding: 0;
+    margin: 0;
+  }
+}

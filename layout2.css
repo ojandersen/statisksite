@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.overskrift {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.reverse-r {
+  display: inline-block;
+  transform: rotateY(180deg);
+  color: red;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.container_produkt {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+img {
+  width: 90%;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+}
+
+.tekst_overskrift {
+  padding-left: 10px;
+  line-height: 0px;
+  text-align: left;
+}
+
+.tekst_overskrift h3 {
+  font-size: 40px;
+}
+
+.tekst_overskrift p {
+  font-size: 25px;
+}
+
+.tekst_afsnit {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: start;
+  margin-left: 25px;
+}
+.tekst_afsnit p {
+  font-size: 20px;
+  width: 90%;
+  margin-top: -10px;
+}
+
+/* add to cart og størrelser */
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 380px;
+  margin-left: 25px;
+}
+
+.size-selector {
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.add-to-cart:hover {
+  background: #444;
+}
+
+@media (width > 428px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  img {
+  }
+}
