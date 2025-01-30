@@ -1,15 +1,30 @@
 {
-    "navne": {
+  "personer": [
+    {
+      "navne": {
         "fornavn": "Oliver Joshua",
         "efternavn": "Andersen"
-    }, 
-    "alder": 27, 
-    "studerende": true, 
-    "interesser": ["Fodbold", "Snowboard", "Rejser"],
-    "adresse": {
+      },
+      "alder": 27,
+      "studerende": true,
+      "interesser": ["Fodbold", "Snowboard", "Rejser"],
+      "adresse": {
         "vej": "Hovedgaden 12",
-        "by": "København N", 
-        "Postnummer": 2200
+        "by": "København N",
+        "postnummer": 2200
+      },
+      "fødselsdato": "05-02-1997"
     },
-    "fødselsdato": "05-02-1997"
+    {
+      "navn": "Tobias",
+      "alder": 23,
+      "uddannelse": "Multimediedesign, KEA",
+      "fødselsdag": "15-03-2001",
+      "faglig_interesse": ["Webdesign", "Fotografi", "Digital markedsføring"],
+      "erfaring": {
+        "fotografi": ["Fotograferet high-profile musikere i København", "Arbejdet med B.O.C, Gobbs, Icekiid m.fl."],
+        "digital_markedsføring": ["Tidligere arbejdet med TikTok på Nexus Music", "Opnåede over 150.000 følgere"]
+      }
     }
+  ]
+}
