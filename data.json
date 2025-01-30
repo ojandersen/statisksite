@@ -1,0 +1,15 @@
+{
+    "navne": {
+        "fornavn": "Oliver Joshua",
+        "efternavn": "Andersen"
+    }, 
+    "alder": 27, 
+    "studerende": true, 
+    "interesser": ["Fodbold", "Snowboard", "Rejser"],
+    "adresse": {
+        "vej": "Hovedgaden 12",
+        "by": "København N", 
+        "Postnummer": 2200
+    },
+    "fødselsdato": "05-02-1997"
+    }
